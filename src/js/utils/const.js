@@ -13,6 +13,7 @@ export const HttpCode = {
 
 export const AppRoute = {
   POSTS: `/posts`,
-  FAVORITE: `/mylist`,
+  CONTACTS: `/contacts`,
+  USERS: `/users`,
   ROOT: `/`,
 };

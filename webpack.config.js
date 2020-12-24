@@ -104,10 +104,10 @@ module.exports = {
         from: path.resolve(__dirname, 'src/favicon.ico'),
         to: publicDirection,
       },
-      {
-        from: path.resolve(__dirname, 'src/img/bg'),
-        to: path.resolve(__dirname, 'public/img/bg')
-      },
+      // {
+      //   from: path.resolve(__dirname, 'src/img/bg'),
+      //   to: path.resolve(__dirname, 'public/img/bg')
+      // },
       {
         from: path.resolve(__dirname, 'src/img/content'),
         to: path.resolve(__dirname, 'public/img/content')

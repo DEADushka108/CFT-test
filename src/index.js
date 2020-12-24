@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import {Operation as PostsOperation} from './js/store/posts/posts';
-import {Operation as CommentsOperation} from './js/store/comments/comments';
+import {Operation as UsersOperation} from './js/store/users/users';
 import store from './js/store/store';
 import App from './js/components/app/app.jsx';
 
@@ -14,7 +14,7 @@ const rootElement = document.querySelector(`#root`);
 
 Promise.all([
   store.dispatch(PostsOperation.loadPosts()),
-  store.dispatch(CommentsOperation.loadComments(1)),
+  store.dispatch(UsersOperation.loadUsers()),
 ])
   .then(() => {
     ReactDOM.render(
