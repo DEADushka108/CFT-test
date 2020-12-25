@@ -47,38 +47,42 @@
   }
 }
 
-// @media (min-width: $tablet-width) {
-//   .journal {
-//     width: auto;
-//   }
+.journal__more {
+  align-self: center;
+}
 
-//   .journal__wrapper {
-//     flex-direction: row;
-//   }
+@media (min-width: $tablet-width) {
+  .journal {
+    width: 660px;
+  }
 
-//   .journal__post-list {
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     justify-content: space-around;
-//   }
+  .journal__wrapper {
+    flex-direction: row;
+  }
 
-//   .journal__more {
-//     align-self: center;
-//   }
+  .journal__post-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
-//   .journal__button {
-//     width: 460px;
-//     text-transform: uppercase;
-//   }
-// }
+  .journal__more {
+    align-self: center;
+  }
 
-// @media (min-width: $desktop-width) {
-//   .catalog__button {
-//     width: 960px;
-//     height: 70px;
-//   }
+  .journal__button {
+    width: 460px;
+    text-transform: uppercase;
+  }
+}
 
-//   .catalog__race-item {
-//     font-size: 24px;
-//   }
-// }
+@media (min-width: $desktop-width) {
+  .journal {
+    width: 1000px;
+  }
+
+  .journal__button {
+    width: 960px;
+    height: 70px;
+  }
+}

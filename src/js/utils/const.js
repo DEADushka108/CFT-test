@@ -20,3 +20,8 @@ export const AppRoute = {
 };
 
 export const MAX_POSTS_COUNT = 8;
+
+export const BodySettings = {
+  MIN_LENGTH: 0,
+  MAX_LENGTH: 100,
+};

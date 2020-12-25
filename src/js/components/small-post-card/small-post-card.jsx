@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {postDetails} from '../../types/post';
 import {AppRoute} from '../../utils/const';
 import {userDetails} from '../../types/user';
-import {findItemById} from '../../utils/utils';
+import {findItemById, getBody} from '../../utils/utils';
 import {getUsersList} from '../../store/users/selectors';
 
 const SmallPostCard = (props) => {
@@ -15,18 +15,26 @@ const SmallPostCard = (props) => {
   const {username} = userInfo;
 
   return <article className="journal__small-card small-card">
-    <div className="small-card__user" onClick={() => {
-      redirect(`${AppRoute.USER}/${userId}`);
-    }}>
+    <div className="small-card__user" >
       <img className="small-card__user-image" src="./img/content/no-user.png" alt={username}/>
-      <p className="small-card__user-name">{username}</p>
+      <p className="small-card__user-name" onClick={() => {
+        redirect(`${AppRoute.USER}/${userId}`);
+      }}>
+        {username}
+      </p>
+      <button className="small-card__delete-button" type="button">
+        <svg className="small-card__delete-icon">
+          <use xlinkHref="#remove-item"></use>
+        </svg>
+        <span className="visually-hidden">Delete</span>
+      </button>
     </div>
     <div className="small-card__wrapper" onClick={() => {
       redirect(`${AppRoute.POSTS}/${id}`);
     }}>
-      <img src="./img/content/no-image.png" alt={title}/>
+      <img className="small-card__content-image" src="./img/content/no-image.png" alt={title}/>
       <h3 className="small-card__title">{title}</h3>
-      <p className="small-card__text">{body}</p>
+      <p className="small-card__text">{getBody(body)}</p>
     </div>
   </article>;
 };

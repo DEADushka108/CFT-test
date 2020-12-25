@@ -56,20 +56,20 @@
   right: -10px;
 }
 
-// @media (min-width: $tablet-width) {
-//   .main-nav__text {
-//     display: block;
-//     font-size: 24px;
-//   }
+@media (min-width: $tablet-width) {
+  .main-nav__text {
+    display: block;
+    font-size: 24px;
+  }
 
-//   .main-nav__icon {
-//     display: none;
-//   }
-// }
+  .main-nav__icon {
+    display: none;
+  }
+}
 
-// @media (min-width: $desktop-width) {
-//   .main-nav {
-//     width: 960px;
-//     margin: 40px auto;
-//   }
-// }
+@media (min-width: $desktop-width) {
+  .main-nav {
+    width: 960px;
+    margin: 40px auto;
+  }
+}

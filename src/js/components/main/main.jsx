@@ -19,10 +19,10 @@ const Main = (props) => {
         <div className="journal__wrapper">
           <PostList posts={postsList} count={postsCount}/>
         </div>
+        <div className="journal__more">
+          <ShowMoreButton list={postsList} count={postsCount}/>
+        </div>
       </section>
-      <div className="journal__more">
-        <ShowMoreButton list={postsList} count={postsCount}/>
-      </div>
     </main>
     <Footer/>
   </React.Fragment>;

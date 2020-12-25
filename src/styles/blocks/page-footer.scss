@@ -25,13 +25,13 @@
   }
 }
 
-// @media (min-width: $tablet-width) {
-//   .page-footer__wrapper {
-//     width: 640px;
-//   }
+@media (min-width: $tablet-width) {
+  .page-footer__wrapper {
+    width: 640px;
+  }
 
-//   .page-footer__logo {
-//     font-size: 30px;
-//     line-height: 40px;
-//   }
-// }
+  .page-footer__logo {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
