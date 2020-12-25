@@ -32,7 +32,7 @@ const Header = () => {
             <li className="main-nav__item">
               <Link to={AppRoute.CONTACTS} className="main-nav__link">
                 <svg className="main-nav__icon">
-                  <use xlinkHref="#shopping-cart"></use>
+                  <use xlinkHref="#message"></use>
                 </svg>
                 <span className="main-nav__text">Contact us</span>
               </Link>

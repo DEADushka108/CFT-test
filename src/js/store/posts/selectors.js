@@ -6,4 +6,8 @@ const getPostsList = (state) => {
   return state[POSTS].posts;
 };
 
-export {getPostsList};
+const getPostsCount = (state) => {
+  return state[POSTS].postsCount;
+};
+
+export {getPostsList, getPostsCount};

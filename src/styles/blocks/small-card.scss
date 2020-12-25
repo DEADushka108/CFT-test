@@ -1,0 +1,32 @@
+.small-card {
+  width: 320px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: $bg-ligh-blue;
+  padding: 0;
+  margin: 0;
+}
+
+.small-card__wrapper {
+  background-color: $bg-white;
+  padding-bottom: 20px;
+}
+
+.small-card__user {
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.small-card__user-image {
+  width: 50px;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.small-card__user-name {
+  color: $text-white;
+}

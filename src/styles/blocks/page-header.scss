@@ -1,0 +1,49 @@
+.page-header {
+  width: 360px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.page-header__wrapper {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.page-header__logo {
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $text-light-blue;
+
+  &:hover {
+    color: $text-blue;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+// @media (min-width: $tablet-width) {
+//   .page-header {
+//     width: auto;
+//   }
+
+//   .page-header__wrapper {
+//     width: 640px;
+//     margin: 0 auto;
+//   }
+
+//   .page-header__logo {
+//     font-size: 40px;
+//     line-height: 60px;
+//   }
+// }
+
+// @media (min-width: $desktop-width) {
+//   .page-header__wrapper {
+//     width: 1300px;
+//   }
+// }

@@ -1,15 +1,17 @@
-import {URL, HttpCode} from '../../utils/const';
+import {URL, HttpCode, MAX_POSTS_COUNT} from '../../utils/const';
 import {extend} from '../../utils/utils';
 
 const initialState = {
   posts: {},
   status: HttpCode.OK,
+  postsCount: MAX_POSTS_COUNT,
 };
 
 const ActionType = {
   LOAD_POSTS: `LOAD_POSTS`,
   DELETE_POST: `DELETE_POST`,
   UPDATE_STATUS: `UPDATE_STATUS`,
+  SET_POSTS_COUNT: `SET_POSTS_COUNT`,
 };
 
 const ActionCreator = {
@@ -20,7 +22,11 @@ const ActionCreator = {
   updateStatus: (status) => ({
     type: ActionType.UPDATE_STATUS,
     payload: status
-  })
+  }),
+  setPostsCount: () => ({
+    type: ActionType.SET_POSTS_COUNT,
+    payload: MAX_POSTS_COUNT,
+  }),
 };
 
 const Operation = {
@@ -44,6 +50,10 @@ const reducer = (state = initialState, action) => {
     case ActionType.UPDATE_STATUS:
       return extend(state, {
         status: action.payload,
+      });
+    case ActionType.SET_POSTS_COUNT:
+      return extend(state, {
+        postsCount: state.postsCount + action.payload,
       });
   }
   return state;

@@ -1,0 +1,84 @@
+.journal {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 320px;
+}
+
+.journal__wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.journal__post-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.journal__button {
+  width: 320px;
+  margin: 0 auto;
+  align-self: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 11px 12px 14px 12px;
+  border-radius: 10px;
+  text-align: center;
+  color: $text-light-blue;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $text-blue;
+    background-color: transparent;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  }
+
+  &:active {
+    color: rgba($text-blue, 0.3);
+  }
+}
+
+// @media (min-width: $tablet-width) {
+//   .journal {
+//     width: auto;
+//   }
+
+//   .journal__wrapper {
+//     flex-direction: row;
+//   }
+
+//   .journal__post-list {
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+//   }
+
+//   .journal__more {
+//     align-self: center;
+//   }
+
+//   .journal__button {
+//     width: 460px;
+//     text-transform: uppercase;
+//   }
+// }
+
+// @media (min-width: $desktop-width) {
+//   .catalog__button {
+//     width: 960px;
+//     height: 70px;
+//   }
+
+//   .catalog__race-item {
+//     font-size: 24px;
+//   }
+// }

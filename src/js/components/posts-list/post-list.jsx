@@ -4,10 +4,11 @@ import SmallPostCard from '../small-post-card/small-post-card';
 import {postDetails} from '../../types/post';
 
 const PostList = (props) => {
-  const {posts} = props;
+  const {posts, count} = props;
+  const postsToShow = posts.slice(0, count);
 
-  return <div className="catalog__post-list">
-    {posts.map((post) => {
+  return <div className="journal__post-list">
+    {postsToShow.map((post) => {
       const {id} = post;
       return <SmallPostCard key={id} postCard={post}/>;
     })}
@@ -16,6 +17,7 @@ const PostList = (props) => {
 
 PostList.propTypes = {
   posts: PropTypes.arrayOf(postDetails),
+  count: PropTypes.number.isRequired,
 };
 
 export default PostList;

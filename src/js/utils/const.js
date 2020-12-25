@@ -15,5 +15,8 @@ export const AppRoute = {
   POSTS: `/posts`,
   CONTACTS: `/contacts`,
   USERS: `/users`,
+  USER: `/user`,
   ROOT: `/`,
 };
+
+export const MAX_POSTS_COUNT = 8;

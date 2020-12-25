@@ -1,5 +1,4 @@
 import axios from 'axios';
-// import {URL} from '../utils/const';
 
 const BASE_URL = `https://jsonplaceholder.typicode.com`;
 const REQUEST_TIMEOUT = 5000;

@@ -14,11 +14,11 @@ const SmallPostCard = (props) => {
   const userInfo = findItemById(userId, usersList);
   const {username} = userInfo;
 
-  return <article className="small-card">
+  return <article className="journal__small-card small-card">
     <div className="small-card__user" onClick={() => {
-      redirect(`${AppRoute}/${userId}`);
+      redirect(`${AppRoute.USER}/${userId}`);
     }}>
-      <img src="./img/content/no-user.png" alt={username}/>
+      <img className="small-card__user-image" src="./img/content/no-user.png" alt={username}/>
       <p className="small-card__user-name">{username}</p>
     </div>
     <div className="small-card__wrapper" onClick={() => {
