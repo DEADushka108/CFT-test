@@ -14,7 +14,7 @@ const Header = () => {
         <nav className="main-nav">
           <ul className="main-nav__list">
             <li className="main-nav__item">
-              <Link to={AppRoute.ROOT} className="main-nav__link main-nav__link--active">
+              <Link to={`${AppRoute.ROOT}`} className="main-nav__link main-nav__link--active">
                 <svg className="main-nav__icon">
                   <use xlinkHref="#home-page"></use>
                 </svg>
@@ -22,7 +22,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="main-nav__item">
-              <Link to={AppRoute.USERS} className="main-nav__link">
+              <Link to={`${AppRoute.USERS}`} className="main-nav__link">
                 <svg className="main-nav__icon">
                   <use xlinkHref="#social-group"></use>
                 </svg>
@@ -30,7 +30,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="main-nav__item">
-              <Link to={AppRoute.CONTACTS} className="main-nav__link">
+              <Link to={`${AppRoute.CONTACTS}`} className="main-nav__link">
                 <svg className="main-nav__icon">
                   <use xlinkHref="#message"></use>
                 </svg>

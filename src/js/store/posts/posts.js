@@ -2,7 +2,7 @@ import {URL, HttpCode, MAX_POSTS_COUNT} from '../../utils/const';
 import {extend} from '../../utils/utils';
 
 const initialState = {
-  posts: {},
+  posts: [],
   status: HttpCode.OK,
   postsCount: MAX_POSTS_COUNT,
 };

@@ -6,4 +6,12 @@ const getUsersList = (state) => {
   return state[USERS].users;
 };
 
-export {getUsersList};
+const getActiveUser = (state) => {
+  return state[USERS].activeUser;
+};
+
+const getUserPosts = (state) => {
+  return state[USERS].userPosts;
+};
+
+export {getUsersList, getActiveUser, getUserPosts};

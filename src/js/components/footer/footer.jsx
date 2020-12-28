@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="page-footer">
       <div className="page-footer__wrapper">
-        <Link to={AppRoute.ROOT} className="page-footer__logo">
+        <Link to={`${AppRoute.ROOT}`} className="page-footer__logo">
           Chirrup
         </Link>
         <div className="page-footer__copyright">

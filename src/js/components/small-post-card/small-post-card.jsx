@@ -57,4 +57,3 @@ const mapDispatchToProps = (dispatch) => ({
 
 export {SmallPostCard};
 export default connect(mapStateToProps, mapDispatchToProps)(SmallPostCard);
-

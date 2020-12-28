@@ -1,0 +1,21 @@
+.users-block {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 320px;
+}
+
+@media (min-width: $tablet-width) {
+  .users-block {
+    width: 660px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .users-block {
+    width: 1000px;
+  }
+}

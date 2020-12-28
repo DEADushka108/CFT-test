@@ -1,0 +1,118 @@
+.feedback {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feedback__title {
+  padding-top: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.feedback__item {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__button {
+  margin-bottom: 20px;
+  width: 281px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 11px 12px 14px 12px;
+  border-radius: 10px;
+  text-align: center;
+  color: $text-white;
+  font-weight: 700;
+  background-color: $button-blue;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+
+  &:hover,
+  &:focus {
+    color: $text-blue;
+    background-color: transparent;
+    padding: 8px 9px 11px 9px;
+    border: 3px solid $text-blue;
+  }
+
+  &:active {
+    color: rgba($text-blue, 0.3);
+  }
+}
+
+.feedback__button-back {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 6px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.feedback__arrow-icon {
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  top: 8px;
+  left: 0;
+  fill: $text-blue;
+  transform: rotate(180deg);
+}
+
+@media (min-width: $tablet-width) {
+  .feedback {
+    padding-bottom: 40px;
+  }
+
+  .feedback__button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .feedback__title {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 60px;
+    padding-top: 37px;
+    margin-bottom: 30px;
+  }
+
+  .feedback__button {
+    text-transform: uppercase;
+    margin-top: 48px;
+    width: 428px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-bottom: 16px;
+
+    &:hover {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+
+  .feedback__arrow-icon {
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 0;
+  }
+}
