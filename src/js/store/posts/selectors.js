@@ -10,4 +10,8 @@ const getPostsCount = (state) => {
   return state[POSTS].postsCount;
 };
 
-export {getPostsList, getPostsCount};
+const getActivePost = (state) => {
+  return state[POSTS].activePost;
+};
+
+export {getPostsList, getPostsCount, getActivePost};

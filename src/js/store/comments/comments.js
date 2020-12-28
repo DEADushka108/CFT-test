@@ -2,7 +2,7 @@ import {URL, HttpCode} from '../../utils/const';
 import {extend} from '../../utils/utils';
 
 const initialState = {
-  comments: {},
+  comments: [],
   status: HttpCode.OK,
 };
 
