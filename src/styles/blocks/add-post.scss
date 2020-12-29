@@ -1,0 +1,87 @@
+.add-post {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.add-post__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-post__item {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-post__button {
+  margin-bottom: 20px;
+  width: 281px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 11px 12px 14px 12px;
+  border-radius: 10px;
+  text-align: center;
+  color: $text-white;
+  font-weight: 700;
+  background-color: $button-blue;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+
+  &:hover,
+  &:focus {
+    color: $text-blue;
+    background-color: transparent;
+    padding: 8px 9px 11px 9px;
+    border: 3px solid $text-blue;
+  }
+
+  &:active {
+    color: rgba($text-blue, 0.3);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .add-post {
+    width: 640px;
+    padding-bottom: 40px;
+  }
+
+  .add-post__button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .add-post {
+    width: 1000px;
+  }
+
+  .add-post__button {
+    text-transform: uppercase;
+    margin-top: 48px;
+    width: 428px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-bottom: 16px;
+
+    &:hover {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+}

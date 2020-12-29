@@ -1,0 +1,37 @@
+.page-footer {
+  width: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.page-footer__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-footer__logo {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-blue;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__wrapper {
+    width: 640px;
+  }
+
+  .page-footer__logo {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
