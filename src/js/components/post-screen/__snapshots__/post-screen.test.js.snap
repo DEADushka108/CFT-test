@@ -1,0 +1,1506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render PostScreen component correctly 1`] = `
+Array [
+  <header
+    className="page-header"
+  >
+    <div
+      className="page-header__wrapper"
+    >
+      <a
+        className="page-header__logo"
+        href="/"
+        onClick={[Function]}
+      >
+        Chirrup
+      </a>
+      <nav
+        className="main-nav"
+      >
+        <ul
+          className="main-nav__list"
+        >
+          <li
+            className="main-nav__item"
+          >
+            <a
+              className="main-nav__link main-nav__link--active"
+              href="/"
+              onClick={[Function]}
+            >
+              <svg
+                className="main-nav__icon"
+              >
+                <use
+                  xlinkHref="#home-page"
+                />
+              </svg>
+              <span
+                className="main-nav__text"
+              >
+                Main
+              </span>
+            </a>
+          </li>
+          <li
+            className="main-nav__item"
+          >
+            <a
+              className="main-nav__link"
+              href="/users"
+              onClick={[Function]}
+            >
+              <svg
+                className="main-nav__icon"
+              >
+                <use
+                  xlinkHref="#social-group"
+                />
+              </svg>
+              <span
+                className="main-nav__text"
+              >
+                Users
+              </span>
+            </a>
+          </li>
+          <li
+            className="main-nav__item"
+          >
+            <a
+              className="main-nav__link"
+              href="/contacts"
+              onClick={[Function]}
+            >
+              <svg
+                className="main-nav__icon"
+              >
+                <use
+                  xlinkHref="#message"
+                />
+              </svg>
+              <span
+                className="main-nav__text"
+              >
+                Contact us
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>,
+  <main
+    className="page-main"
+  >
+    <h1
+      className="visually-hidden"
+    >
+      Contact us
+    </h1>
+    <section
+      className="post"
+    >
+      <div
+        className="post__post-card post-card"
+      >
+        <article
+          className="post-card__notice"
+        >
+          <div
+            className="post-card__user"
+          >
+            <img
+              alt="Bret"
+              className="post-card__user-image"
+              src="./img/content/no-user.png"
+            />
+            <a
+              className="post-card__user-name"
+              href="/user/1"
+              onClick={[Function]}
+            >
+              Bret
+            </a>
+          </div>
+          <div
+            className="post-card__content"
+          >
+            <h3
+              className="post-card__title"
+            >
+              sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+            </h3>
+            <img
+              className="post-card__image"
+              src="./img/content/no-image.png"
+            />
+            <p
+              className="post-card__text"
+            >
+              quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+            </p>
+          </div>
+        </article>
+      </div>
+      <div
+        className="post__comments comments"
+      >
+        <h3
+          className="comments__title"
+        >
+          Comments:
+        </h3>
+        <ul
+          className="comments__list"
+        >
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                id labore ex et quam laborum
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                laudantium enim quasi est quidem magnam voluptate ipsam eos
+tempora quo necessitatibus
+dolor quam autem quasi
+reiciendis et nam sapiente accusantium
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                quo vero reiciendis velit similique earum
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                est natus enim nihil est dolore omnis voluptatem numquam
+et omnis occaecati quod ullam at
+voluptatem error expedita pariatur
+nihil sint nostrum voluptatem reiciendis et
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                odio adipisci rerum aut animi
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                quia molestiae reprehenderit quasi aspernatur
+aut expedita occaecati aliquam eveniet laudantium
+omnis quibusdam delectus saepe quia accusamus maiores nam est
+cum et ducimus et vero voluptates excepturi deleniti ratione
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                alias odio sit
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                non et atque
+occaecati deserunt quas accusantium unde odit nobis qui voluptatem
+quia voluptas consequuntur itaque dolor
+et qui rerum deleniti ut occaecati
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                vero eaque aliquid doloribus et culpa
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                harum non quasi et ratione
+tempore iure ex voluptates in ratione
+harum architecto fugit inventore cupiditate
+voluptates magni quo et
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                et fugit eligendi deleniti quidem qui sint nihil autem
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                doloribus at sed quis culpa deserunt consectetur qui praesentium
+accusamus fugiat dicta
+voluptatem rerum ut voluptate autem
+voluptatem repellendus aspernatur dolorem in
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                repellat consequatur praesentium vel minus molestias voluptatum
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                maiores sed dolores similique labore et inventore et
+quasi temporibus esse sunt id et
+eos voluptatem aliquam
+aliquid ratione corporis molestiae mollitia quia et magnam dolor
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                et omnis dolorem
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                ut voluptatem corrupti velit
+ad voluptatem maiores
+et nisi velit vero accusamus maiores
+voluptates quia aliquid ullam eaque
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                provident id voluptas
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                sapiente assumenda molestiae atque
+adipisci laborum distinctio aperiam et ab ut omnis
+et occaecati aspernatur odit sit rem expedita
+quas enim ipsam minus
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                eaque et deleniti atque tenetur ut quo ut
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                voluptate iusto quis nobis reprehenderit ipsum amet nulla
+quia quas dolores velit et non
+aut quia necessitatibus
+nostrum quaerat nulla et accusamus nisi facilis
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                fugit labore quia mollitia quas deserunt nostrum sunt
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                ut dolorum nostrum id quia aut est
+fuga est inventore vel eligendi explicabo quis consectetur
+aut occaecati repellat id natus quo est
+ut blanditiis quia ut vel ut maiores ea
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                modi ut eos dolores illum nam dolor
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                expedita maiores dignissimos facilis
+ipsum est rem est fugit velit sequi
+eum odio dolores dolor totam
+occaecati ratione eius rem velit
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                aut inventore non pariatur sit vitae voluptatem sapiente
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                fuga eos qui dolor rerum
+inventore corporis exercitationem
+corporis cupiditate et deserunt recusandae est sed quis culpa
+eum maiores corporis et
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                et officiis id praesentium hic aut ipsa dolorem repudiandae
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                vel quae voluptas qui exercitationem
+voluptatibus unde sed
+minima et qui ipsam aspernatur
+expedita magnam laudantium et et quaerat ut qui dolorum
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                debitis magnam hic odit aut ullam nostrum tenetur
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                nihil ut voluptates blanditiis autem odio dicta rerum
+quisquam saepe et est
+sunt quasi nemo laudantium deserunt
+molestias tempora quo quia
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                perferendis temporibus delectus optio ea eum ratione dolorum
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                iste ut laborum aliquid velit facere itaque
+quo ut soluta dicta voluptate
+error tempore aut et
+sequi reiciendis dignissimos expedita consequuntur libero sed fugiat facilis
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                eos est animi quis
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                consequatur necessitatibus totam sed sit dolorum
+recusandae quae odio excepturi voluptatum harum voluptas
+quisquam sit ad eveniet delectus
+doloribus odio qui non labore
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                aut et tenetur ducimus illum aut nulla ab
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                veritatis voluptates necessitatibus maiores corrupti
+neque et exercitationem amet sit et
+ullam velit sit magnam laborum
+magni ut molestias
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                sed impedit rerum quia et et inventore unde officiis
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                doloribus est illo sed minima aperiam
+ut dignissimos accusantium tempore atque et aut molestiae
+magni ut accusamus voluptatem quos ut voluptates
+quisquam porro sed architecto ut
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                molestias expedita iste aliquid voluptates
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                qui harum consequatur fugiat
+et eligendi perferendis at molestiae commodi ducimus
+doloremque asperiores numquam qui
+ut sit dignissimos reprehenderit tempore
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                aliquid rerum mollitia qui a consectetur eum sed
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                deleniti aut sed molestias explicabo
+commodi odio ratione nesciunt
+voluptate doloremque est
+nam autem error delectus
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                porro repellendus aut tempore quis hic
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                qui ipsa animi nostrum praesentium voluptatibus odit
+qui non impedit cum qui nostrum aliquid fuga explicabo
+voluptatem fugit earum voluptas exercitationem temporibus dignissimos distinctio
+esse inventore reprehenderit quidem ut incidunt nihil necessitatibus rerum
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                quis tempora quidem nihil iste
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                voluptates provident repellendus iusto perspiciatis ex fugiat ut
+ut dolor nam aliquid et expedita voluptate
+sunt vitae illo rerum in quos
+vel eligendi enim quae fugiat est
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                in tempore eos beatae est
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                repudiandae repellat quia
+sequi est dolore explicabo nihil et
+et sit et
+et praesentium iste atque asperiores tenetur
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                autem ab ea sit alias hic provident sit
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                sunt aut quae laboriosam sit ut impedit
+adipisci harum laborum totam deleniti voluptas odit rem ea
+non iure distinctio ut velit doloribus
+et non ex
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                in deleniti sunt provident soluta ratione veniam quam praesentium
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                incidunt sapiente eaque dolor eos
+ad est molestias
+quas sit et nihil exercitationem at cumque ullam
+nihil magnam et
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                doloribus quibusdam molestiae amet illum
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                nisi vel quas ut laborum ratione
+rerum magni eum
+unde et voluptatem saepe
+voluptas corporis modi amet ipsam eos saepe porro
+              </p>
+            </div>
+          </li>
+          <li
+            className=" comments__item"
+          >
+            <button
+              className="comments__delete-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <svg
+                className="comments__delete-icon"
+              >
+                <use
+                  xlinkHref="#remove-item"
+                />
+              </svg>
+              <span
+                className="visually-hidden"
+              >
+                Delete
+              </span>
+            </button>
+            <div
+              className="comments__user"
+            >
+              <img
+                className="comments__user-image"
+                src="./img/content/no-user.png"
+              />
+              <p
+                className="comments__name"
+              >
+                quo voluptates voluptas nisi veritatis dignissimos dolores ut officiis
+              </p>
+            </div>
+            <div
+              className="comments__content"
+            >
+              <p
+                className="comments__body"
+              >
+                voluptatem repellendus quo alias at laudantium
+mollitia quidem esse
+temporibus consequuntur vitae rerum illum
+id corporis sit id
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>,
+  <footer
+    className="page-footer"
+  >
+    <div
+      className="page-footer__wrapper"
+    >
+      <a
+        className="page-footer__logo"
+        href="/"
+        onClick={[Function]}
+      >
+        Chirrup
+      </a>
+      <div
+        className="page-footer__copyright"
+      >
+        <p
+          className="page-footer__text"
+        >
+          © 2020 Chirrup Ltd.
+        </p>
+      </div>
+    </div>
+  </footer>,
+]
+`;

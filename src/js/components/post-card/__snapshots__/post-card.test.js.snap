@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render PostCard component correctly 1`] = `
+<article
+  className="post-card__notice"
+>
+  <div
+    className="post-card__user"
+  >
+    <img
+      alt="Bret"
+      className="post-card__user-image"
+      src="./img/content/no-user.png"
+    />
+    <a
+      className="post-card__user-name"
+      href="/user/1"
+      onClick={[Function]}
+    >
+      Bret
+    </a>
+  </div>
+  <div
+    className="post-card__content"
+  >
+    <h3
+      className="post-card__title"
+    >
+      sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+    </h3>
+    <img
+      className="post-card__image"
+      src="./img/content/no-image.png"
+    />
+    <p
+      className="post-card__text"
+    >
+      quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+    </p>
+  </div>
+</article>
+`;

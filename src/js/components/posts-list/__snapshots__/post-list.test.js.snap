@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render PostList component correctly 1`] = `
+<div
+  className="journal__post-list"
+>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas...
+      </p>
+    </div>
+  </article>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="qui est esse"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        qui est esse
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        est rerum tempore vitae
+sequi sint nihil reprehenderit dolor beatae ea dolores neque
+fugiat blanditi...
+      </p>
+    </div>
+  </article>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="ea molestias quasi exercitationem repellat qui ipsa sit aut"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        ea molestias quasi exercitationem repellat qui ipsa sit aut
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        et iusto sed quo iure
+voluptatem occaecati omnis eligendi aut ad
+voluptatem doloribus vel accusantiu...
+      </p>
+    </div>
+  </article>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="eum et est occaecati"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        eum et est occaecati
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        ullam et saepe reiciendis voluptatem adipisci
+sit amet autem assumenda provident rerum culpa
+quis hi...
+      </p>
+    </div>
+  </article>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="nesciunt quas odio"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        nesciunt quas odio
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        repudiandae veniam quaerat sunt sed
+alias aut fugiat sit autem sed est
+voluptatem omnis possimus ess...
+      </p>
+    </div>
+  </article>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="dolorem eum magni eos aperiam quia"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        dolorem eum magni eos aperiam quia
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        ut aspernatur corporis harum nihil quis provident sequi
+mollitia nobis aliquid molestiae
+perspiciati...
+      </p>
+    </div>
+  </article>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="magnam facilis autem"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        magnam facilis autem
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        dolore placeat quibusdam ea quo vitae
+magni quis enim qui quis quo nemo aut saepe
+quidem repellat ex...
+      </p>
+    </div>
+  </article>
+  <article
+    className="journal__small-card small-card"
+  >
+    <div
+      className="small-card__user"
+    >
+      <img
+        alt="Bret"
+        className="small-card__user-image"
+        src="./img/content/no-user.png"
+      />
+      <p
+        className="small-card__user-name"
+        onClick={[Function]}
+      >
+        Bret
+      </p>
+      <button
+        className="small-card__delete-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="small-card__delete-icon"
+        >
+          <use
+            xlinkHref="#remove-item"
+          />
+        </svg>
+        <span
+          className="visually-hidden"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+    <div
+      className="small-card__wrapper"
+      onClick={[Function]}
+    >
+      <img
+        alt="dolorem dolore est ipsam"
+        className="small-card__content-image"
+        src="./img/content/no-image.png"
+      />
+      <h3
+        className="small-card__title"
+      >
+        dolorem dolore est ipsam
+      </h3>
+      <p
+        className="small-card__text"
+      >
+        dignissimos aperiam dolorem qui eum
+facilis quibusdam animi sint suscipit qui sint possimus cum
+quae...
+      </p>
+    </div>
+  </article>
+</div>
+`;
