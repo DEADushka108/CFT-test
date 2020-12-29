@@ -1,0 +1,16 @@
+.post {
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .post {
+    width: 640px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .post {
+    width: 1000px;
+  }
+}

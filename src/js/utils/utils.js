@@ -20,3 +20,7 @@ export const shuffleArray = (array) => {
 
   return array;
 };
+
+export const validateText = (text) => {
+  return text.length >= 2;
+};

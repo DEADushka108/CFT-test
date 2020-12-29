@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {redirectToRoute} from '../../store/redirect/redirect';
 import {connect} from 'react-redux';
+import {Operation as PostOperation} from '../../store/posts/posts';
 import {postDetails} from '../../types/post';
 import {AppRoute} from '../../utils/const';
 import {userDetails} from '../../types/user';
@@ -9,7 +10,7 @@ import {findItemById, getBody} from '../../utils/utils';
 import {getUsersList} from '../../store/users/selectors';
 
 const SmallPostCard = (props) => {
-  const {postCard, usersList, redirect} = props;
+  const {postCard, usersList, redirect, onDeleteClick} = props;
   const {id, userId, title, body} = postCard;
   const userInfo = findItemById(userId, usersList);
   const {username} = userInfo;
@@ -22,7 +23,9 @@ const SmallPostCard = (props) => {
       }}>
         {username}
       </p>
-      <button className="small-card__delete-button" type="button">
+      <button className="small-card__delete-button" type="button" onClick={() => {
+        onDeleteClick(id);
+      }}>
         <svg className="small-card__delete-icon">
           <use xlinkHref="#remove-item"></use>
         </svg>
@@ -43,6 +46,7 @@ SmallPostCard.propTypes = {
   postCard: postDetails,
   usersList: PropTypes.arrayOf(userDetails),
   redirect: PropTypes.func.isRequired,
+  onDeleteClick: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state) => ({
@@ -52,6 +56,9 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
   redirect(route) {
     dispatch(redirectToRoute(route));
+  },
+  onDeleteClick(id) {
+    dispatch(PostOperation.deletePost(id));
   },
 });
 

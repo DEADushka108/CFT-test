@@ -1,9 +1,47 @@
 .journal {
+  position: relative;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 320px;
+}
+
+.journal__add-button {
+  position: absolute;
+  width: 100px;
+  top: -40px;
+  right: 0;
+  padding: 0;
+  text-decoration: none;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: $text-white;
+  background-color: $bg-blue;
+  border: none;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $text-blue;
+    background-color: transparent;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  }
+
+  &:active {
+    color: rgba($text-blue, 0.3);
+  }
+}
+
+.journal__add-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
 }
 
 .journal__wrapper {
@@ -54,7 +92,21 @@
 @media (min-width: $tablet-width) {
   .journal {
     width: 660px;
+    padding-top: 40px;
   }
+
+  .journal__add-button {
+    width: 150px;
+    top: -10px;
+    right: 10px;
+    display: flex;
+    padding: 8px 12px;
+  }
+
+  
+.journal__add-icon {
+  margin-left: 25px;
+}
 
   .journal__wrapper {
     flex-direction: row;

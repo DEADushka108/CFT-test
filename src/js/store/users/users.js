@@ -2,7 +2,7 @@ import {URL} from '../../utils/const';
 import {extend} from '../../utils/utils';
 
 const initialState = {
-  users: {},
+  users: [],
   activeUser: {},
   userPosts: [],
 };

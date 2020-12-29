@@ -1,23 +1,25 @@
-.feedback {
+.add-post {
+  width: 320px;
+  margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
 }
 
-.feedback__form {
+.add-post__form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.feedback__item {
+.add-post__item {
   border: none;
   display: flex;
   flex-direction: column;
 }
 
-.feedback__button {
+.add-post__button {
   margin-bottom: 20px;
   width: 281px;
   text-decoration: none;
@@ -45,14 +47,19 @@
   &:active {
     color: rgba($text-blue, 0.3);
   }
+
+  &:disabled {
+    opacity: 0.6;
+  }
 }
 
 @media (min-width: $tablet-width) {
-  .feedback {
+  .add-post {
+    width: 640px;
     padding-bottom: 40px;
   }
 
-  .feedback__button {
+  .add-post__button {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
@@ -60,7 +67,11 @@
 }
 
 @media (min-width: $desktop-width) {
-  .feedback__button {
+  .add-post {
+    width: 1000px;
+  }
+
+  .add-post__button {
     text-transform: uppercase;
     margin-top: 48px;
     width: 428px;

@@ -20,6 +20,10 @@ const ActionCreator = {
   updateStatus: (status) => ({
     type: ActionType.UPDATE_STATUS,
     payload: status
+  }),
+  deleteComment: (id) => ({
+    type: ActionType.DELETE_COMMENT,
+    payload: id,
   })
 };
 
@@ -33,6 +37,12 @@ const Operation = {
         dispatch(ActionCreator.updateStatus(HttpCode.BAD_REQUEST));
       });
   },
+  deleteComment: (id) => (dispatch, __getState, api) => {
+    return api.delete(`${URL.COMMENTS}/${id}`)
+      .then(() => {
+        dispatch(ActionCreator.deleteComment(id));
+      });
+  },
 };
 
 const reducer = (state = initialState, action) => {
@@ -44,6 +54,10 @@ const reducer = (state = initialState, action) => {
     case ActionType.UPDATE_STATUS:
       return extend(state, {
         status: action.payload,
+      });
+    case ActionType.DELETE_COMMENT:
+      return extend(state, {
+        comments: state.comments.filter((it) => it.id !== action.payload),
       });
   }
   return state;

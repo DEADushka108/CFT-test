@@ -14,4 +14,8 @@ const getActivePost = (state) => {
   return state[POSTS].activePost;
 };
 
-export {getPostsList, getPostsCount, getActivePost};
+const getPostStatus = (state) => {
+  return state[POSTS].status;
+};
+
+export {getPostsList, getPostsCount, getActivePost, getPostStatus};

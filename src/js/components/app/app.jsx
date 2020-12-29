@@ -8,6 +8,7 @@ import ContactScreen from '../contact-screen/contact-screen.jsx';
 import UsersScreen from '../users-screen/users-screen.jsx';
 import UserScreen from '../user-screen/user-screen.jsx';
 import PostScreen from '../post-screen/post-screen.jsx';
+import AddPostScreen from '../add-post-screen/add-post-screen.jsx';
 
 const App = () => {
 
@@ -30,6 +31,9 @@ const App = () => {
         <Route exact path={`${AppRoute.POSTS}/:id`} render={(routeProps) => {
           return <PostScreen {...routeProps}/>;
         }}>
+        </Route>
+        <Route exact path={`${AppRoute.POST}/add`}>
+          <AddPostScreen/>
         </Route>
       </Switch>
     </Router>

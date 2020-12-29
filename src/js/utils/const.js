@@ -13,6 +13,7 @@ export const HttpCode = {
 
 export const AppRoute = {
   POSTS: `/posts`,
+  POST: `/post`,
   CONTACTS: `/contacts`,
   USERS: `/users`,
   USER: `/user`,
@@ -24,4 +25,9 @@ export const MAX_POSTS_COUNT = 8;
 export const BodySettings = {
   MIN_LENGTH: 0,
   MAX_LENGTH: 100,
+};
+
+export const PostStatus = {
+  VALID: 1,
+  INVALID: 0
 };
