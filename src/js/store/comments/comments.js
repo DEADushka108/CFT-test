@@ -32,9 +32,6 @@ const Operation = {
     return api.get(`${URL.POSTS}/${id}/comments`)
       .then((response) => {
         dispatch(ActionCreator.loadComments(response.data));
-      })
-      .catch(() => {
-        dispatch(ActionCreator.updateStatus(HttpCode.BAD_REQUEST));
       });
   },
   deleteComment: (id) => (dispatch, __getState, api) => {

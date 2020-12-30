@@ -17,7 +17,7 @@
 }
 
 .comments__name {
-  padding: 10ox 20px;
+  padding: 10px 20px;
 }
 
 .comments__item {
@@ -66,13 +66,13 @@
 }
 
 @media (min-width: $tablet-width) {
-  .comments{
+  .comments {
     font-size: 18px;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .comments{
+  .comments {
     font-size: 24px;
   }
 

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Header component render correctly 1`] = `
+<header
+  className="page-header"
+>
+  <div
+    className="page-header__wrapper"
+  >
+    <a
+      className="page-header__logo"
+      href="/"
+      onClick={[Function]}
+    >
+      Chirrup
+    </a>
+    <nav
+      className="main-nav"
+    >
+      <ul
+        className="main-nav__list"
+      >
+        <li
+          className="main-nav__item"
+        >
+          <a
+            className="main-nav__link main-nav__link--active"
+            href="/"
+            onClick={[Function]}
+          >
+            <svg
+              className="main-nav__icon"
+            >
+              <use
+                xlinkHref="#home-page"
+              />
+            </svg>
+            <span
+              className="main-nav__text"
+            >
+              Main
+            </span>
+          </a>
+        </li>
+        <li
+          className="main-nav__item"
+        >
+          <a
+            className="main-nav__link"
+            href="/users"
+            onClick={[Function]}
+          >
+            <svg
+              className="main-nav__icon"
+            >
+              <use
+                xlinkHref="#social-group"
+              />
+            </svg>
+            <span
+              className="main-nav__text"
+            >
+              Users
+            </span>
+          </a>
+        </li>
+        <li
+          className="main-nav__item"
+        >
+          <a
+            className="main-nav__link"
+            href="/contacts"
+            onClick={[Function]}
+          >
+            <svg
+              className="main-nav__icon"
+            >
+              <use
+                xlinkHref="#message"
+              />
+            </svg>
+            <span
+              className="main-nav__text"
+            >
+              Contact us
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+`;

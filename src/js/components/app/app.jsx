@@ -1,6 +1,5 @@
 import React from 'react';
 import Main from '../main/main.jsx';
-// import PropTypes from 'prop-types';
 import {Router, Switch, Route} from 'react-router-dom';
 import history from '../../history/history';
 import {AppRoute} from '../../utils/const.js';

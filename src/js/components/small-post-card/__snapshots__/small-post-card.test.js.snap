@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render SmallPostCard component correctly 1`] = `
+<article
+  className="journal__small-card small-card"
+>
+  <div
+    className="small-card__user"
+  >
+    <img
+      alt="Bret"
+      className="small-card__user-image"
+      src="./img/content/no-user.png"
+    />
+    <p
+      className="small-card__user-name"
+      onClick={[Function]}
+    >
+      Bret
+    </p>
+    <button
+      className="small-card__delete-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className="small-card__delete-icon"
+      >
+        <use
+          xlinkHref="#remove-item"
+        />
+      </svg>
+      <span
+        className="visually-hidden"
+      >
+        Delete
+      </span>
+    </button>
+  </div>
+  <div
+    className="small-card__wrapper"
+    onClick={[Function]}
+  >
+    <img
+      alt="sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+      className="small-card__content-image"
+      src="./img/content/no-image.png"
+    />
+    <h3
+      className="small-card__title"
+    >
+      sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+    </h3>
+    <p
+      className="small-card__text"
+    >
+      quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas...
+    </p>
+  </div>
+</article>
+`;

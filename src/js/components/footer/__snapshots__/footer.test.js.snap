@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Footer component correctly 1`] = `
+<footer
+  className="page-footer"
+>
+  <div
+    className="page-footer__wrapper"
+  >
+    <a
+      className="page-footer__logo"
+      href="/"
+      onClick={[Function]}
+    >
+      Chirrup
+    </a>
+    <div
+      className="page-footer__copyright"
+    >
+      <p
+        className="page-footer__text"
+      >
+        © 2020 Chirrup Ltd.
+      </p>
+    </div>
+  </div>
+</footer>
+`;
