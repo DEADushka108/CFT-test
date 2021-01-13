@@ -2,85 +2,85 @@
 
 exports[`Should Header component render correctly 1`] = `
 <header
-  className="page-header"
+  className="header__PageHeader-q13gpr-0 iSXoXP"
 >
   <div
-    className="page-header__wrapper"
+    className="header__Wrapper-q13gpr-1 kBoTBU"
   >
     <a
-      className="page-header__logo"
+      className="header__Logo-q13gpr-2 bcCSEi"
       href="/"
       onClick={[Function]}
     >
       Chirrup
     </a>
     <nav
-      className="main-nav"
+      className="header__MainNav-q13gpr-3 LPJae"
     >
       <ul
-        className="main-nav__list"
+        className="header__List-q13gpr-4 gxvFWj"
       >
         <li
-          className="main-nav__item"
+          className="header__Item-q13gpr-5 fYnSgo"
         >
           <a
-            className="main-nav__link main-nav__link--active"
+            className="header__NavLink-q13gpr-6 hrrukg"
             href="/"
             onClick={[Function]}
           >
             <svg
-              className="main-nav__icon"
+              className="header__Icon-q13gpr-7 clURuZ"
             >
               <use
                 xlinkHref="#home-page"
               />
             </svg>
             <span
-              className="main-nav__text"
+              className="header__NavText-q13gpr-8 ggugkA"
             >
               Main
             </span>
           </a>
         </li>
         <li
-          className="main-nav__item"
+          className="header__Item-q13gpr-5 fYnSgo"
         >
           <a
-            className="main-nav__link"
+            className="header__NavLink-q13gpr-6 hrrukg"
             href="/users"
             onClick={[Function]}
           >
             <svg
-              className="main-nav__icon"
+              className="header__Icon-q13gpr-7 clURuZ"
             >
               <use
                 xlinkHref="#social-group"
               />
             </svg>
             <span
-              className="main-nav__text"
+              className="header__NavText-q13gpr-8 ggugkA"
             >
               Users
             </span>
           </a>
         </li>
         <li
-          className="main-nav__item"
+          className="header__Item-q13gpr-5 fYnSgo"
         >
           <a
-            className="main-nav__link"
+            className="header__NavLink-q13gpr-6 hrrukg"
             href="/contacts"
             onClick={[Function]}
           >
             <svg
-              className="main-nav__icon"
+              className="header__Icon-q13gpr-7 clURuZ"
             >
               <use
                 xlinkHref="#message"
               />
             </svg>
             <span
-              className="main-nav__text"
+              className="header__NavText-q13gpr-8 ggugkA"
             >
               Contact us
             </span>
