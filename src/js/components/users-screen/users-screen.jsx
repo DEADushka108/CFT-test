@@ -6,6 +6,8 @@ import {getUsersList} from '../../store/users/selectors';
 import {connect} from 'react-redux';
 import {userDetails} from '../../types/user';
 import UserCardSmall from '../user-card-small/user-card-small';
+import {Title} from '../../styles/main/main';
+import {Section} from '../../styles/users-block/user-block';
 
 const UsersScreen = (props) => {
   const {usersList} = props;
@@ -13,13 +15,13 @@ const UsersScreen = (props) => {
   return <Fragment>
     <Header/>
     <main className="page-main">
-      <h1 className="visually-hidden">users</h1>
-      <section className="users-block">
+      <Title>users</Title>
+      <Section>
         {usersList.map((userInfo) => {
           const {id} = userInfo;
           return <UserCardSmall key={id} userInfo={userInfo}/>;
         })}
-      </section>
+      </Section>
     </main>
 
     <Footer/>

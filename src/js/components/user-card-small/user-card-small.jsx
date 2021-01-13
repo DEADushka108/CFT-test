@@ -1,40 +1,40 @@
 import React from 'react';
 import {AppRoute} from '../../utils/const';
 import {userDetails} from '../../types/user';
-import {Link} from 'react-router-dom';
+import {Article, ImageWrapper, InfoWrapper, UserImage, UserName, InfoList, InfoItem, InfoText, InfoLink, RouteLink} from '../../styles/user-card-small/user-card-small';
 
 const UserCardSmall = (props) => {
   const {userInfo} = props;
   const {id, name, username, email, phone, website} = userInfo;
 
-  return <article className="users-block__user-card-small user-card-small">
-    <div className="user-card-small__image" >
-      <img className="user-card-small__user-image" src="./img/content/no-user.png" alt={username}/>
+  return <Article>
+    <ImageWrapper>
+      <UserImage src="./img/content/no-user.png" alt={username}/>
       <div>
-        <p className="user-card-small__name">{name}</p>
+        <UserName>{name}</UserName>
       </div>
-    </div>
-    <div className="user-card-small__user-info">
-      <ul className="user-card-small__info-list">
-        <li className="user-card-small__item">
-          <p className="user-card-small__text">Username:</p>
-          <Link to={`${AppRoute.USER}/${id}`} className="user-card-small__link">{username}</Link>
-        </li>
-        <li className="user-card-small__item">
-          <p className="user-card-small__text">Email:</p>
-          <a className="user-card-small__link" href={`mailto:${email}`}>{email}</a>
-        </li>
-        <li className="user-card-small__item">
-          <p className="user-card-small__text">Phone:</p>
-          <a className="user-card-small__link" href={`tel:${phone}`}>{phone}</a>
-        </li>
-        <li className="user-card-small__item">
-          <p className="user-card-small__text">Website:</p>
-          <a className="user-card-small__link" href={website}>{website}</a>
-        </li>
-      </ul>
-    </div>
-  </article>;
+    </ImageWrapper>
+    <InfoWrapper>
+      <InfoList>
+        <InfoItem>
+          <InfoText>Username:</InfoText>
+          <RouteLink to={`${AppRoute.USER}/${id}`} >{username}</RouteLink>
+        </InfoItem>
+        <InfoItem>
+          <InfoText>Email:</InfoText>
+          <InfoLink href={`mailto:${email}`}>{email}</InfoLink>
+        </InfoItem>
+        <InfoItem>
+          <InfoText>Phone:</InfoText>
+          <InfoLink href={`tel:${phone}`}>{phone}</InfoLink>
+        </InfoItem>
+        <InfoItem>
+          <InfoText>Website:</InfoText>
+          <InfoLink href={website}>{website}</InfoLink>
+        </InfoItem>
+      </InfoList>
+    </InfoWrapper>
+  </Article>;
 };
 
 UserCardSmall.propTypes = {

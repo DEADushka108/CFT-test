@@ -6,6 +6,7 @@ import {Operation as PostsOperation} from './js/store/posts/posts';
 import {Operation as UsersOperation} from './js/store/users/users';
 import store from './js/store/store';
 import App from './js/components/app/app.jsx';
+import {GlobalStyle} from './js/styles/global/global';
 
 const requireAll = (r) => r.keys().forEach(r);
 requireAll(require.context(`./img/icons`, true, /\.svg$/));
@@ -19,6 +20,7 @@ Promise.all([
   .then(() => {
     ReactDOM.render(
         <Provider store={store}>
+          <GlobalStyle />
           <App />
         </Provider>,
         rootElement

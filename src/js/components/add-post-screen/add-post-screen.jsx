@@ -8,6 +8,8 @@ import {getPostStatus} from '../../store/posts/selectors';
 import {Operation as PostOperation, ActionCreator as PostCreator} from '../../store/posts/posts';
 import {redirectToRoute} from '../../store/redirect/redirect';
 import {connect} from 'react-redux';
+import {Title} from '../../styles/main/main';
+import {Form, Section, SubmitButton, Item, PostLegend, PostItem, PostLabel, PostInput, PostTextarea} from '../../styles/add-post/add-post';
 
 const AddPostScreen = (props) => {
   const {onSuccessSubmit, onSubmit, status, onUpdatePostStatus} = props;
@@ -52,35 +54,35 @@ const AddPostScreen = (props) => {
   return <Fragment>
     <Header/>
     <main className="page-main">
-      <h1 className="visually-hidden">Add new post</h1>
-      <section className="add-post">
+      <Title>Add new post</Title>
+      <Section>
         {status === HttpCode.SERVER_ERROR &&
-        <p className="add-post__text">
+        <p>
           Error {status} occurred. Please try again later.
         </p>}
         {status === HttpCode.BAD_REQUEST &&
-        <p className="add-post__text">
+        <p>
           Somthing goes wrong. Please check the Internet connection and try again later.
         </p>}
         {status === PostStatus.INVALID &&
-        <p className="add-post__text">
+        <p>
           Please type title and write some word.
         </p>}
-        <form className="add-post__form" ref={form} onSubmit={handleFormSubmit}>
-          <fieldset className="add-post__item post-info">
-            <legend className="visually-hidden">Write title an post</legend>
-            <p className="post-info__item">
-              <label className="post-info__label" htmlFor="post-title">Post title</label>
-              <input className="post-info__input" id="post-title" type="text" name="post-title" placeholder="Title" required onChange={handleTitleChange}/>
-            </p>
-            <p className="post-info__item">
-              <label className="post-info__label" htmlFor="comment-field">Text</label>
-              <textarea className="post-info__input" name="comment" id="comment-field" rows="5" placeholder="Your post" onChange={handleTextChange}></textarea>
-            </p>
-          </fieldset>
-          <button className="add-post__button" type="submit" disabled={!isValid}>Submit</button>
-        </form>
-      </section>
+        <Form ref={form} onSubmit={handleFormSubmit}>
+          <Item>
+            <PostLegend>Write title an post</PostLegend>
+            <PostItem>
+              <PostLabel htmlFor="post-title">Post title</PostLabel>
+              <PostInput className="post-info__input" id="post-title" type="text" name="post-title" placeholder="Title" required onChange={handleTitleChange}/>
+            </PostItem>
+            <PostItem>
+              <PostLabel htmlFor="comment-field">Text</PostLabel>
+              <PostTextarea name="comment" id="comment-field" rows="5" placeholder="Your post" onChange={handleTextChange}></PostTextarea>
+            </PostItem>
+          </Item>
+          <SubmitButton type="submit" disabled={!isValid}>Submit</SubmitButton>
+        </Form>
+      </Section>
     </main>
     <Footer/>
 

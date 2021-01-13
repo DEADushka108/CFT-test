@@ -1,21 +1,21 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {FooterLogo, FooterWrapper, PageFooter} from '../../styles/footer/footer';
 import {AppRoute} from '../../utils/const';
 
 const Footer = () => {
   return (
-    <footer className="page-footer">
-      <div className="page-footer__wrapper">
-        <Link to={`${AppRoute.ROOT}`} className="page-footer__logo">
+    <PageFooter>
+      <FooterWrapper>
+        <FooterLogo to={`${AppRoute.ROOT}`}>
           Chirrup
-        </Link>
-        <div className="page-footer__copyright">
-          <p className="page-footer__text">
+        </FooterLogo>
+        <div>
+          <p>
             © 2020 Chirrup Ltd.
           </p>
         </div>
-      </div>
-    </footer>
+      </FooterWrapper>
+    </PageFooter>
   );
 };
 

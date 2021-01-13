@@ -13,6 +13,8 @@ import {commentsDetails} from '../../types/comments';
 import PostCard from '../post-card/post-card';
 import {getActiveUser} from '../../store/users/selectors';
 import {userDetails} from '../../types/user';
+import {Title} from '../../styles/main/main';
+import {Section, CommentsList, CommentsTitle, CommentsItem, DeleteButton, DeleteIcon, DeleteText, UserWrapper, UserImage, UserName, ContentWrapper} from '../../styles/post/post';
 
 const PostScreen = (props) => {
   const {match, post, userInfo, commentsList, onLoadPost, onLoadComments, onLoadUser, onDeleteClick} = props;
@@ -34,37 +36,33 @@ const PostScreen = (props) => {
   return <Fragment>
     <Header/>
     <main className="page-main">
-      <h1 className="visually-hidden">Contact us</h1>
-      <section className="post">
-        <div className="post__post-card post-card">
-          <PostCard post={post} userInfo={userInfo}/>
-        </div>
-        <div className="post__comments comments">
-          <h3 className="comments__title">Comments:</h3>
-          <ul className="comments__list">
-            {commentsList.map((comment) => {
-              const {id, name, body} = comment;
-              return <li key={id} className=" comments__item">
-                <button className="comments__delete-button" type="button" onClick={() => {
-                  onDeleteClick(id);
-                }}>
-                  <svg className="comments__delete-icon">
-                    <use xlinkHref="#remove-item"></use>
-                  </svg>
-                  <span className="visually-hidden">Delete</span>
-                </button>
-                <div className="comments__user">
-                  <img className="comments__user-image" src="./img/content/no-user.png"/>
-                  <p className="comments__name">{name}</p>
-                </div>
-                <div className="comments__content">
-                  <p className="comments__body">{body}</p>
-                </div>
-              </li>;
-            })}
-          </ul>
-        </div>
-      </section>
+      <Title>Contact us</Title>
+      <Section>
+        <PostCard post={post} userInfo={userInfo}/>
+        <CommentsTitle >Comments:</CommentsTitle>
+        <CommentsList>
+          {commentsList.map((comment) => {
+            const {id, name, body} = comment;
+            return <CommentsItem key={id} >
+              <DeleteButton type="button" onClick={() => {
+                onDeleteClick(id);
+              }}>
+                <DeleteIcon>
+                  <use xlinkHref="#remove-item"></use>
+                </DeleteIcon>
+                <DeleteText>Delete</DeleteText>
+              </DeleteButton>
+              <UserWrapper>
+                <UserImage src="./img/content/no-user.png"/>
+                <UserName>{name}</UserName>
+              </UserWrapper>
+              <ContentWrapper>
+                <p>{body}</p>
+              </ContentWrapper>
+            </CommentsItem>;
+          })}
+        </CommentsList>
+      </Section>
     </main>
     <Footer/>
 

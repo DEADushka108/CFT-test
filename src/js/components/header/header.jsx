@@ -1,45 +1,45 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import {AppRoute} from '../../utils/const';
+import {PageHeader, Wrapper, Logo, MainNav, List, Item, Icon, NavText, NavLink} from '../../styles/header/header';
 
 const Header = () => {
 
   return (
-    <header className="page-header">
-      <div className="page-header__wrapper">
-        <Link to={AppRoute.ROOT} className="page-header__logo">
+    <PageHeader>
+      <Wrapper>
+        <Logo to={AppRoute.ROOT}>
           Chirrup
-        </Link>
-        <nav className="main-nav">
-          <ul className="main-nav__list">
-            <li className="main-nav__item">
-              <Link to={`${AppRoute.ROOT}`} className="main-nav__link main-nav__link--active">
-                <svg className="main-nav__icon">
+        </Logo>
+        <MainNav>
+          <List>
+            <Item>
+              <NavLink to={`${AppRoute.ROOT}`}>
+                <Icon>
                   <use xlinkHref="#home-page"></use>
-                </svg>
-                <span className="main-nav__text">Main</span>
-              </Link>
-            </li>
-            <li className="main-nav__item">
-              <Link to={`${AppRoute.USERS}`} className="main-nav__link">
-                <svg className="main-nav__icon">
+                </Icon>
+                <NavText>Main</NavText>
+              </NavLink>
+            </Item>
+            <Item>
+              <NavLink to={`${AppRoute.USERS}`}>
+                <Icon>
                   <use xlinkHref="#social-group"></use>
-                </svg>
-                <span className="main-nav__text">Users</span>
-              </Link>
-            </li>
-            <li className="main-nav__item">
-              <Link to={`${AppRoute.CONTACTS}`} className="main-nav__link">
-                <svg className="main-nav__icon">
+                </Icon>
+                <NavText>Users</NavText>
+              </NavLink>
+            </Item>
+            <Item>
+              <NavLink to={`${AppRoute.CONTACTS}`}>
+                <Icon>
                   <use xlinkHref="#message"></use>
-                </svg>
-                <span className="main-nav__text">Contact us</span>
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+                </Icon>
+                <NavText>Contact us</NavText>
+              </NavLink>
+            </Item>
+          </List>
+        </MainNav>
+      </Wrapper>
+    </PageHeader>
   );
 };
 

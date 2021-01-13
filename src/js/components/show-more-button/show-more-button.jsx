@@ -3,11 +3,12 @@ import PropTypes from 'prop-types';
 import {postDetails} from '../../types/post';
 import {ActionCreator} from '../../store/posts/posts';
 import {connect} from 'react-redux';
+import {JournalButton} from '../../styles/journal/journal';
 
 const ShowMoreButton = (props) => {
   const {list, count, onClick} = props;
 
-  return (count < list.length) ? <button className="journal__button" type="button" onClick={onClick}>Show more</button> : null;
+  return (count < list.length) ? <JournalButton type="button" onClick={onClick}>Show more</JournalButton> : null;
 };
 
 ShowMoreButton.propTypes = {
